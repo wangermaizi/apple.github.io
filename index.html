@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Apple (中国大陆) - 官方网站</title>
+        <link rel="stylesheet" href="css/main.css" type="text/css"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <!--1、分析布局
+            2、先写HTML骨架
+            3、给相应内容施加css样式
+            4、最后再写js补全动作与事件
+        还有要另外注意的地方：分析页面是否包含移动端，如包含移动端一定要加上meta viewport-->
+    </head>
+    <body>
+        <div class="nav">
+            <a href="#" class="logo"></a>
+            <a href="#" class="text">Mac</a>
+            <a href="#" class="text">iPad</a>
+            <a href="#" class="text">iPhone</a>
+            <a href="#" class="text">Watch</a>
+            <a href="#" class="text">Music</a>
+            <a href="#" class="text">技术支持</a>
+            <a href="#" class="search"></a>
+            <a href="#" class="bag"></a>
+            <input type="checkbox" name="choose" id="choose" hidden="hidden"/>
+            <label for="choose" class="switch">
+                <span class="line"></span>
+                <span class="line"></span>
+            </label>
+                <!--注意下述的写法:
+                .page>.main>(.sacipt>(.ico+input)+navlis>.navtext*9)-->
+                <!--头部的交互式内容-->
+            <div class="page">
+                <div class="main">
+                    <div class="sacipt">
+                        <div class="ico"></div>
+                        <input type="text" placeholder="搜索 apple.com"/>
+                    </div>
+                    <div class="border"></div>
+                    <div class="navlist">
+                        <a href="#" class="navtext">Mac</a>
+                        <a href="#" class="navtext">iPad</a>
+                        <a href="#" class="navtext">iPhone</a>
+                        <a href="#" class="navtext">Watch</a>
+                        <a href="#" class="navtext">Music</a>
+                        <a href="#" class="navtext">TV</a>
+                        <a href="#" class="navtext">技术支持</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--头部交互式内容结束-->
+        <div class="main-banner">
+            <div class="unit-copy-wrapper">
+                    <h2>iPhone 11 Pro</h2>
+                    <h3>摄像头、显示屏、性能，样样 Pro 如其名。</h3>
+                    <p>折抵换购，仅 RMB 258/每月或 RMB 6199 起*。</p>
+                    <div class="cta-links">
+                        <a href="#">进一步了解 &gt;</a>
+                        <a href="#">购买 &gt;</a>
+                    </div>
+            </div>
+        </div>
+        <div class="Minor-banner">
+            <div class="banner1">
+                <div class="unit-copy-wrapper">
+                    <h2 class="logo-title"></h2>
+                    <h3>
+                        这个电脑，
+                        <br/>
+                        拿掉了电脑的条条框框。
+                    </h3>
+                    <div class="cta-links">
+                        <a href="#">进一步了解  ></a>
+                        <a href="#">购买  ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="banner2">
+                <div class="unit-copy-wrapper">
+                    <h2 class="logo-title"></h2>
+                    <h3>
+                        这个电脑，
+                        <br/>
+                        拿掉了电脑的条条框框。
+                    </h3>
+                    <div class="cta-links">
+                        <a href="#">进一步了解  ></a>
+                        <a href="#">购买  ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
